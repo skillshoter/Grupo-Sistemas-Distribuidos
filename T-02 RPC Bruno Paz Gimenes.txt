@@ -1,0 +1,15 @@
+Bruno Paz Gimenes, RM: 201751246914
+
+O RPC escolhido foi o CORBA, entretanto é importante salientar que não existe necessariamente um melhor do que o outro (RMI e DCOM), visto que cada um possui suas próprias vantagens e desvantagens com base em diversos cenários.
+
+Os maiores pontos negativos sobre o CORBA estão no fato de possuir uma necessidade de utilizar sempre a mesma IDL (Linguagem de Definição de Interface) e não realizar uma coleta de lixo distribuída de propósito geral.
+
+Com relação aos pontos positivos, temos:
+
+_ Implementação de Objetos: Diversas linguagens podem ser usadas, desde que o IDL possa ser mapeado para esse idioma. Apenas para efeito de comparação a RMI  pode ser usada apenas com a linguagem Java e a DCOM obriga a utilização de uma linguagem a nível binário, como C++, Java, Delphi e COBOL.
+
+_ Herança: O CORBA Suporta herança múltipla no nível da interface.
+
+_ Identificador de exceção: As exceções são lançadas na definição de interface, onde o tratamento de exceções é feito por objetos de exceção.
+
+Para título de curiosidade é interessante mencionar sobre a compilação da IDL que gera uma infraestrutura de um determinado objeto chamado stub, se feito do lado cliente através do comando idlj -fclient <arquivo.idl>. Para gerar um skeleton o comando idlj -fserver <arquivo.idl> deve ser feito do lado do servidor. e para gerar ambos independente do lado basta utilizar o comando idlj -fall <arquivo.idl>.
