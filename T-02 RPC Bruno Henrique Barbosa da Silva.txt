@@ -1,0 +1,9 @@
+T02 - Bruno Henrique Barbosa da Silva
+RM: 201751207692
+
+-RPC-
+
+Não existe uma escolha certeira onde uma tecnologia é melhor do que todas as outras em todos os cenários possíveis, logo possuímos opções diferentes que podem variar de acordo com a plataforma atual.
+Dentre as três tecnologias RPC (DCOM, Corba e RMI) a que mais apresentou pontos positivos foi a Corba, pois possui uma grande diversidade apesar da incapacidade de operar em interfaces diferentes.
+Enquanto a RMI fica travada apenas em ambientes java, a Corba tem capacidade de ser utilizada em diversas linguagens de programação desde que haja a biblioteca ORB. A DCOM também pode ser utilizada em diversas linguagens pois seu desenvolvimento é em baixo nível (binário), mas exige uma configuração local exata entre as máquinas o que seria desvantagem em alguns casos.
+A Corba também conta com seguranças em níveis diferentes e um bom desempenho para quantidades pequenas e medianas de informação, o problema também é resolvido a distância sem necessariamente saber quem está fazendo o acessando.
