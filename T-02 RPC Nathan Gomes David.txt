@@ -1,0 +1,5 @@
+Nathan David RA: 201751167208
+Justifique a sua escolha por uma das três tecnologias RPC:
+A tecnologia escolhida foi a CORBA (Common Object Request Broker Architecture),  o motivo de sua escolha, foi por sua facilidade de uso, visto que é possível utilizar a tecnologia em diferentes linguagens, utilizando diferentes objetos ou skeletons que são escolhidos, utilizando as interfaces de alocação dinâmica. 
+Além disso, o Corba também facilita a implementação, por ser mais flexível, podendo estar em diferentes redes, linguagem e sistemas, porém precisam utilizar a mesma interface IDL.
+O Corba também garante segurança com controles de acesso e sistemas de autenticação
