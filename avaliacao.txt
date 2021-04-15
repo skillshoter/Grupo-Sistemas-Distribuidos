@@ -3,3 +3,11 @@ AV1
 
 T-01 = 1.0 pt  [ nao recebi telas de prototipo ]
 
+T-02
+
+	Bruno Henrique	= 1.0 pt
+	Bruno Paz	= 1.0 pt
+	Eduardo		= 1.0 pt
+	Nathan		= 1.0 pt
+
+
