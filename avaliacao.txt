@@ -10,4 +10,7 @@ T-02
 	Eduardo		= 1.0 pt
 	Nathan		= 1.0 pt
 
+T-03 = 2.5 pts
+
+
 
